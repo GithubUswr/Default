@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  box-sizing: content-box;
+}
+
+a {
+  color: blue;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="search"],
+input[type="tel"],
+input[type="url"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+select {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+button {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
